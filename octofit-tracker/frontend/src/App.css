@@ -1,0 +1,130 @@
+.app-shell {
+  min-height: 100vh;
+  --app-bg-1: #f4f8ff;
+  --app-bg-2: #e7f0fb;
+  --app-surface: #ffffff;
+  --app-title: #16324f;
+  --app-text: #244564;
+  --app-link: #0a5bb8;
+  --app-link-hover: #08468c;
+  --app-nav: #f5f9ff;
+  --app-nav-active: #0d6efd;
+  --app-table-head: #e9f2ff;
+  --app-table-alt: #f7fbff;
+  --app-btn-bg: #0f63c9;
+  --app-btn-bg-hover: #0d53aa;
+  background: linear-gradient(180deg, var(--app-bg-1) 0%, var(--app-bg-2) 100%);
+  color: var(--app-text);
+}
+
+.app-header {
+  padding: 1rem 1rem 0.5rem;
+  background-color: transparent;
+}
+
+.app-logo {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 1px solid #c8ddf5;
+  background-color: #fff;
+  box-shadow: 0 8px 22px rgba(22, 50, 79, 0.12);
+}
+
+.app-title {
+  color: var(--app-title);
+}
+
+.app-subtitle {
+  color: #3f6286;
+}
+
+.app-link {
+  color: var(--app-link);
+}
+
+.app-link:hover {
+  color: var(--app-link-hover);
+}
+
+.app-nav .nav-link {
+  color: #234665;
+  font-weight: 500;
+  border: 1px solid #c6d8ef;
+  background-color: var(--app-nav);
+}
+
+.app-nav .nav-link.active {
+  background-color: var(--app-nav-active);
+  border-color: var(--app-nav-active);
+}
+
+.card {
+  background-color: var(--app-surface);
+  border-radius: 0.85rem;
+}
+
+.card-header h2,
+.card-header .h5 {
+  color: var(--app-title);
+}
+
+.mono-id {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono',
+    'Courier New', monospace;
+  font-size: 0.85rem;
+}
+
+.consistent-table th,
+.consistent-table td {
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.consistent-table thead th {
+  background-color: var(--app-table-head);
+  color: #1f4264;
+}
+
+.consistent-table tbody tr:nth-of-type(even) {
+  background-color: var(--app-table-alt);
+}
+
+.consistent-table tbody td {
+  color: #274a6d;
+}
+
+.consistent-table td {
+  max-width: 26rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.btn.app-btn,
+.card .btn-primary {
+  background-color: var(--app-btn-bg);
+  border-color: var(--app-btn-bg);
+}
+
+.btn.app-btn:hover,
+.card .btn-primary:hover {
+  background-color: var(--app-btn-bg-hover);
+  border-color: var(--app-btn-bg-hover);
+}
+
+.empty-state {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 10rem;
+  color: #64748b;
+}
+
+.modal {
+  z-index: 1060;
+}
+
+.modal-backdrop {
+  z-index: 1055;
+}
