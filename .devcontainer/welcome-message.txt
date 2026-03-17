@@ -1,0 +1,4 @@
+👋 GitHub Copilot 에이전트 모드를 사용하여 다단계 Fitness Tracker 애플리케이션을 구축하는 여정에 오신 것을 환영합니다!
+여러분이 이곳에 오신 것을 진심으로 환영하며, Copilot의 다양한 기능을 탐색해 보시기를 기대합니다!
+🏋🏽🔥💪🏼🎧 Mergington High School 체육 교사인 여러분은 학생들을 위한 Fitness App 을 개발하는 임무를 맡았습니다.
+📃 GitHub Copilot 문서: https://docs.github.com/en/copilot
